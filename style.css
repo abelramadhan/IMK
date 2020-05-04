@@ -1,0 +1,155 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    background-color: #100138;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #120136;
+    height: 11vh;
+    align-items: center;
+    padding: 0vh 15vh;
+    box-shadow: 2px 2px 400px black;
+}
+
+.biodata {
+    flex: 4;
+    color: #fcbf1e;   
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+}
+
+.nav li {
+    display: inline;
+    flex: 1;
+    padding: 0px 7px;
+}
+
+li a {
+    color: #fcbf1e;
+    background-color: #27496d;
+    padding: 3px 12px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: .3s ease-in-out;
+    color: #27496d;
+    background-color: #fcbf1e;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5vh 0 0 0;
+    flex-wrap: wrap-reverse;
+}
+
+.list {
+    margin: 15px 15vh 15px 10vh;
+    padding: 15px 30px;   
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #fcbf1e;
+    align-self: center;
+}
+
+.foto {   
+    margin: 15px 20vh 15px 10px;
+    align-self: center;
+}
+
+img {
+    border: 5px solid #fcbf1e;
+    border-radius: 10px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.tab {
+    flex-wrap: wrap;
+    margin: 4vh 2vh 1vh 2vh;
+    background-color: #fcbf1e;
+    padding: 3vh;
+    border-radius: 10px;
+}
+
+table {
+    padding: 5px;
+    text-align: left;
+}
+
+th, td {
+    padding: 2px 5px;
+}
+
+.SKS {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 0 8vh 0;
+    padding: 20px;
+}
+
+.SKS table {
+    padding: 3vh 16vh;
+    border-radius: 10px;
+    background-color: #fcbf1e;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin:10vh 0;
+    color: #fcbf1e;
+}
+
+#box {
+    background-color: #0c022b;
+    padding: 30px 30px 10px 30px;
+    border-radius: 6px;
+    width: 60%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 3px 0 15px 0;
+    display: inline-block;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=submit] {
+      background-color: #d6a622;
+      border: none;
+      height: 7vh;
+      font-family: 'Poppins';
+      font-weight: bold;
+      font-size: large;
+      color: white;
+  }
+
+  input[type=submit]:hover {
+    transition: .3s ease;
+    background-color: white;
+    color: #d6a622;
+}
